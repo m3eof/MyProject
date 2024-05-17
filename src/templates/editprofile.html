@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Редактирование профиля</title>
+</head>
+<body>
+    <h1>Редактирование профиля</h1>
+    <form method="post">
+        <label for="username">Никнейм:</label>
+        <input type="text" id="username" name="username" value="{{ user.username }}"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="{{ user.email }}"><br><br>
+        <input type="submit" value="Save Changes">
+    </form>
+</body>
+</html>
+{% endblock %}

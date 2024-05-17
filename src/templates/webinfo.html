@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+     <link href="{{ url_for ('static', filename='webinfo.css')}}" rel="stylesheet"  />
+</head>
+
+<body>
+    <div class="header">
+       
+        <h1>INFO</h1>
+        <p>CultureALL</p>
+    </div>
+
+    <div class="row">
+        <div class="main">
+            <h2>What is this website about?</h2>
+             <div class="hr"><img src="{{ url_for('static', filename='images/page4.jpg') }}" ></div>
+             <p1>This site is designed to share ideas from the cultural community and <br /> to exhibit their work. In addition to spreading your creativity, you can <br /> also evaluate other people's work and even visit exhibitions! Visit the <br /> discussion tab to share your opinions and theories.</p1>
+           
+            
+        </div>
+
+        <div class="next">
+            <h2>How can I share with my work?</h2>
+            <div class="hrg"><img src="{{ url_for('static', filename='images/page5.jpg') }}"></div>
+            <p>Sign or create new account and then start to communicate with people! </p>
+
+
+        </div>
+       
+    </div>
+</body>
+</html>
+{% endblock %}

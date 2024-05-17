@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <link href="{{ url_for ('static', filename='webnews.css')}}" rel="stylesheet"  />
+</head>
+
+<body>
+    <div class="header">
+
+        <h1>NEWS</h1>
+        <p>CultureALL</p>
+    </div>
+   
+
+    <h2>The art of the XX century: an exhibition.</h2>
+    <p>The exposition is based on three principles: monographic halls dedicated to the work of great artists; halls of collectors; halls representing a variety of artistic trends of the twentieth century. In the renovated halls 1-14 of the New Tretyakov Gallery, curators and curators present a new exhibition reflecting modern views on Russian art of the early twentieth century.</p>
+    <a href="https://afisha.yandex.ru/moscow/art/iskusstvo-khkh-veka-tretiakovkskaia-galereia?utm_source=direct_search&utm_medium=paid_performance&utm_campaign=94304359%7CMSCAMP-60_%5BAF-PT%5D_%7BWS%3AS%7D_RU-213_goal-REV_Category-��������&utm_term=��������%20������&utm_content=INTid%7C0100000046644871091_46644871091%7Ccid%7C94304359%7Cgid%7C5269159012%7Caid%7C14874491403%7Cpos%7Cpremium1%7Csrc%7Csearch_none%7Cdvc%7Cdesktop%7Cevid%7C0%7Cretid%7C0&source=selection-events&schedule-preset=tomorrow">Learn more hear</a>
+    <div class="hr"><img src="{{ url_for('static', filename='images/page6.jpg') }}" ></div>
+    <h2>Dali & Picasso</h2>
+    <p>Visitors will have a unique opportunity to see one of the largest private collections of authentic sculptures by Salvador Dali and ceramics by Pablo Picasso, as well as graphics. After viewing the exhibition, everyone will learn what the two geniuses thought about women, great creators, contemporaries and their native country. The project aims to compare the worldview of artists, as well as to look at the world around them through their eyes.</p>
+    <a href="https://afisha.yandex.ru/moscow/art/dali-pikasso?utm_source=direct_search&utm_medium=paid_performance&utm_campaign=94304359%7CMSCAMP-60_%5BAF-PT%5D_%7BWS%3AS%7D_RU-213_goal-REV_Category-��������&utm_term=��������%20������&utm_content=INTid%7C0100000046644871091_46644871091%7Ccid%7C94304359%7Cgid%7C5269159012%7Caid%7C14874491403%7Cpos%7Cpremium1%7Csrc%7Csearch_none%7Cdvc%7Cdesktop%7Cevid%7C0%7Cretid%7C0&source=selection-events">Learn more hear</a>
+    <div class="hr"><img src="{{ url_for('static', filename='images/page7.jpg') }}" ></div>
+    <h2>Aivazovsky. Kandinsky. Living canvases</h2>
+    <p>We invite you to admire the incredible paintings of the poet of the sea Ivan Aivazovsky and the founder of abstractionism Vasily Kandinsky.</p>
+    <a href="https://afisha.yandex.ru/moscow/art/aivazovskii-kandinskii-zhivye-polotna?utm_source=direct_search&utm_medium=paid_performance&utm_campaign=94304359%7CMSCAMP-60_%5BAF-PT%5D_%7BWS%3AS%7D_RU-213_goal-REV_Category-��������&utm_term=��������%20������&utm_content=INTid%7C0100000046644871091_46644871091%7Ccid%7C94304359%7Cgid%7C5269159012%7Caid%7C14874491403%7Cpos%7Cpremium1%7Csrc%7Csearch_none%7Cdvc%7Cdesktop%7Cevid%7C0%7Cretid%7C0&source=rubric">Learn more hear</a>
+    <div class="hr"><img src="{{ url_for('static', filename='images/page8.jpg') }}" ></div>
+
+   
+</body>
+</html>
+{% endblock %}

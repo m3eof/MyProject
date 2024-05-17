@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+
+ <head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <link href="{{ url_for ('static', filename='web.css')}}" rel="stylesheet"  />
+</head>
+
+ <body>
+   <div class="header">
+         <h1>CultureALL</h1>
+         <p>Exchange of ideas, exhibition of works and discussion of creativity.</p>
+     </div>
+     
+
+       <div class="head">
+           
+       </div>
+     <div class="row">
+         
+         <div class="main">
+             <h2>CREATIVE SPACE. FIND LIKE-MINDED PEOPLE.</h2>
+             <h5>The day we opened, February 17, 2024</h5>
+             <div class="vangogh"><img src="{{ url_for('static', filename='images/page2.jpg') }}"></div>
+            
+             
+
+         </div>
+        
+         
+         <div class="side">
+             <h2>FREE AND OPEN.</h2>
+             <h5>Art by Van Gogh</h5>
+             <div class="vgh"><img src="{{ url_for('static', filename='images/page3.jpg') }}"></div>
+             
+
+         </div>
+        
+     </div>
+
+     <div class="footer">
+         <h2>Discover the world of art. Contact information: telegram @m3eof.</h2>
+     </div>
+      
+      
+       
+</body>
+</html>
+{% endblock %}
