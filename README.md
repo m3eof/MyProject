@@ -1,5 +1,5 @@
 # CultureAll
-![Изображение](https://yandex.ru/images/search?pos=16&from=tabbar&img_url=https%3A%2F%2Fpaintingvalley.com%2Fimages%2Fold-man-and-woman-painting-13.jpg&text=вангог&rpt=simage&lr=213)
+
 
  CultureAll - сайт для знакомства с культуром и искусством, работающий бесплатно для каждого ценителя творчества. Здесь можно узнавать новое и искать интересные места.
 
