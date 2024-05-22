@@ -32,7 +32,7 @@
 2. Запускаем приложение в командной строке.
    ><span style="color: lightblue;">(venv)C:\Users\User\fproject>app.py</span>
 3. Или перейдите на сайт...
-   ><span style="color: lightblue;">https://myproject-graq.onrender.com/profile</span>
+   >[CultureAll](https://myproject-graq.onrender.com/profile/ "Ссылка на сайт")
 ___
 #### Как пользоваться? ####
 
@@ -40,8 +40,10 @@ ___
 
 Создайте аккаунт, придумайте себе юзернейм и запомните пароль - в будущем вы будете заходить на сайт под этими данными. В личном кабинете вы всегда сможете поменять вашу учетную запись!
 
-<img src="https://github.com/m3eof/MyProject/blob/image/im.png" />
+1. **При входе на сайт выберите войти или зарегестрироваться.Войти - если у вас уже есть учетная запись, зарегестрироваться - если вы посещаете сайт впервые**
+<img src="im.png" />
 
+2. ****
 
  ![GitHub last commit](https://img.shields.io/github/last-commit/m3eof/MyProject?labelColor=white&color=lightblue)
 
