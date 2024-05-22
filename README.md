@@ -1,7 +1,7 @@
 # CultureAll
 
 
-<img src="https://github.com/m3eof/MyProject/blob/image/vg.png" />
+<img src="vg.png"/>
 
 
 ![Static Badge](https://img.shields.io/badge/CultureALL-lightblue) - сайт для знакомства с культуром и искусством, работающий бесплатно для каждого ценителя творчества. Здесь можно узнавать новое и искать интересные места.
