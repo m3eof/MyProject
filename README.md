@@ -32,7 +32,7 @@
 2. Запускаем приложение в командной строке.
    ><span style="color: lightblue;">(venv)C:\Users\User\fproject>app.py</span>
 3. Или перейдите на сайт...
-   >[CultureAll](https://myproject-graq.onrender.com/profile "Ссылка на сайт")
+   >[CultureAll](https://myproject-graq.onrender.com/ "Ссылка на сайт")
 ___
 #### Как пользоваться? ####
 
