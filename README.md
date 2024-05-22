@@ -9,24 +9,28 @@
  Ресурс для творческих людей, которые делают *новое*!
 
  ## Необходимые требования. ##
- ▶ Для корректной работы требуется установить *Python* версии  *3.12.3*
+  Для корректной работы требуется установить *Python* версии  *3.12.3*
 
  ___
  ### Как установить. ###
  > Для работы с файлами потребуется Python версии 3.12.3
 
  1. После установки языка Python нужно установить Flask, используя командную строку.
-     > python -m venv fproject\venv 
+    ><span style="color: lightblue;">python -m venv fproject\venv </span>
+    
 
        * Переходим в созданную директорию.
-     > cd fprojectMotuz
+    ><span style="color: lightblue;">cd fprojectMotuz</span>
+     
 
        * Активируем окружение
-     > venv\scripts\activate
+      ><span style="color: lightblue;">venv\scripts\activate</span>
+    
        * Устанавливаем Flask
-     > pip install flask
+      ><span style="color: lightblue;">pip install flask</span>
+     
 2. Запускаем приложение в командной строке.
-   >(venv)C:\Users\User\fproject>app.py
+   ><span style="color: lightblue;">(venv)C:\Users\User\fproject>app.py</span>
 ___
 #### Как пользоваться? ####
 
@@ -34,7 +38,7 @@ ___
 
 Создайте аккаунт, придумайте себе юзернейм и запомните пароль - в будущем вы будете заходить на сайт под этими данными. В личном кабинете вы всегда сможете поменять вашу учетную запись!
 
-▶ ![GitHub last commit](https://img.shields.io/github/last-commit/m3eof/MyProject?labelColor=white&color=lightblue)
+ ![GitHub last commit](https://img.shields.io/github/last-commit/m3eof/MyProject?labelColor=white&color=lightblue)
 
 
 
