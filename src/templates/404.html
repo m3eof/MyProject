@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewort" content="width=device-width,initial-scale=1.0">
+        <title>404 Page Not Found</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    </head>
+
+    <body>
+        <div class="error-container">
+            <lottie-player 
+            src="{{ url_for('static', filename='data_tgs') }}"
+            background="transparent"  speed="1"
+            style="width: 300px; height: 300px; margin: auto;"
+            loop autoplay>    
+</lottie-player>
+
+<p>
+    Кажется, такой ссылки не существует...
+</p>
+
+<a href="/">
+    Главная страница
+</a>
+        </div>
+
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    </body>
+</html>
